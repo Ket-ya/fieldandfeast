@@ -23,6 +23,9 @@ h2{
     font-size: 50px;
     color: #1F2A44;
 }
+p{
+    font-size: 20px;
+}
 
 /*HEADER*/
 #hlogo {
@@ -89,3 +92,96 @@ hr{
     text-align: center;
     margin: 65px;
 }
+
+/*OUR OFFERINGS*/
+#offhead{
+    font-weight: lighter;
+}
+
+/*#artisan, #diningexp, #monthlyb{
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: solid #76885B 5px;
+    background-color: #76885B;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 20px;
+    color:  #FAF9F6; 
+    text-align:justify;
+    display: flexbox;
+    flex-direction: row;
+    h2{
+        color: #FAF9F6;
+       text-align: justify; 
+        white-space: nowrap; 
+        margin: 15px;
+        padding: 15px;
+        display:inline-flexbox;
+        flex-direction: column;
+    }
+    
+} */
+
+
+
+#artisan{
+    width:75%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: solid #76885B 5px;
+    background-color: #76885B;
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px; 
+   /* margin: 20px; */
+  /* margin-left: */
+    color:  #FAF9F6; 
+    h2{
+        color: #FAF9F6;
+        font-size: 40px;
+    }
+}
+
+#diningexp{
+    width:55%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: solid #76885B 5px;
+    background-color: #76885B;
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+   margin: 20px; 
+/*  margin-left: 85%; */
+    position:relative;
+    left: 250px;
+    color:  #FAF9F6; 
+    h2{
+        color: #FAF9F6;
+        font-size: 40px;
+    }
+
+}
+
+
+
+#monthlyb{
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: solid #76885B 5px;
+    background-color: #76885B;
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 20px;
+    color:  #FAF9F6; 
+    h2{
+        color: #FAF9F6;
+    }
+}
+
