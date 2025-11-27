@@ -239,3 +239,40 @@ hr{
  
 
 /*GALLERY OF FIELD AND FEAST*/
+
+#gallery {
+    padding-left: 65px;
+    padding-right: 95px;
+    padding-bottom: -50px;
+    padding-top: -50px;
+  /*  margin: 15px; */
+}
+
+#gallery h2 {
+    font-weight: lighter;
+    padding-top: -10px;
+}
+
+.imagecollection{
+   /* display: flex;
+    list-style-type: none;
+    margin-right: 25px; */
+
+}
+
+#gallerylist li {
+   list-style-type: none;
+    display: flex; 
+    border-radius: 50px; 
+    /*grid-template-columns: 45px; */
+    margin-left: 10px;
+    margin: 10px;
+}
+
+#gallerylist img {
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: 45px;
+    width: 200px;
+    height: 200px
+}
