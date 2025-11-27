@@ -13,6 +13,8 @@ Playfair Display
 */
 body{
     font-family: Playfair Display;
+    margin: 15px;
+  /*  white-space-collapse: */
 }
 h1{
     font-size: 90px;
@@ -20,11 +22,11 @@ h1{
 }
 
 h2{
-    font-size: 50px;
+    font-size: 35px;
     color: #1F2A44;
 }
 p{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /*HEADER*/
@@ -98,46 +100,94 @@ hr{
     font-weight: lighter;
 }
 
-/*#artisan, #diningexp, #monthlyb{
+
+.ouroffersboxes {
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-gap:5px;
+    margin-right: 25px;
+
+
+}
+
+.greenslide1 {
+    width:fit-content;
     box-sizing: border-box;
     border-radius: 30px;
     border: solid #76885B 5px;
     background-color: #76885B;
+    color: #FAF9F6;
+    padding-right: 25px;
+    padding-left: 25px;
     padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 20px;
-    color:  #FAF9F6; 
-    text-align:justify;
-    display: flexbox;
-    flex-direction: row;
-    h2{
-        color: #FAF9F6;
-       text-align: justify; 
-        white-space: nowrap; 
-        margin: 15px;
-        padding: 15px;
-        display:inline-flexbox;
-        flex-direction: column;
-    }
+    margin: 25px;
+    position: sticky;
+}
+
+.greenslide1 h2{
+    color:#FAF9F6;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.greenslide2 {
+    width:fit-content;
+     box-sizing: border-box;
+    border-radius: 30px;
+    border: solid #76885B 5px;
+    background-color: #76885B;
+    color: #FAF9F6;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    margin: 25px;
+    position: sticky;
     
-} */
+}
 
+.greenslide2 h2 {
+    color:#FAF9F6;
+    text-align:left;
+    white-space: nowrap;
+}
 
-
-#artisan{
-    width:75%;
+.thridbox {
+    display: grid;
+    width:auto;
     box-sizing: border-box;
     border-radius: 30px;
     border: solid #76885B 5px;
     background-color: #76885B;
-    display: inline-block;
+    color: #FAF9F6;
+    padding-right: 30px;
+    padding-left: 30px;
     padding-bottom: 15px;
-    padding-left: 35px;
-    padding-right: 35px; 
-   /* margin: 20px; */
-  /* margin-left: */
-    color:  #FAF9F6; 
+    margin: 15px;
+    position:sticky;
+}
+
+.thridbox h2 {
+    color:#FAF9F6;
+    font: 30px;
+    text-align:left;
+    white-space: nowrap;
+}
+
+/*
+#artisan { 
+    width:100%; 
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: solid #76885B 5px;
+    background-color: #76885B;
+  /*  display: inline-block; */
+  /*  padding-bottom: 15px; 
+    padding-left: 15px;
+    padding-right: 15px; 
+   /* position: relative; */
+   /* margin-bottom: 35px; 
+  /* margin-left: */ 
+/*    color:  #FAF9F6; 
     h2{
         color: #FAF9F6;
         font-size: 40px;
@@ -145,29 +195,31 @@ hr{
 }
 
 #diningexp{
-    width:55%;
+    width:100%;
     box-sizing: border-box;
     border-radius: 30px;
     border: solid #76885B 5px;
     background-color: #76885B;
-    display: inline-block;
+  /*  display: inline-block; */ /*
     padding-bottom: 15px;
     padding-left: 35px;
     padding-right: 35px;
    margin: 20px; 
-/*  margin-left: 85%; */
-    position:relative;
-    left: 250px;
-    color:  #FAF9F6; 
+/*  margin-left: 85%; */ 
+/*    position:relative;
+    left: 650px;
+    top: -260px;
+   /* transform: translateY(-250px); */ 
+/*    color:  #FAF9F6; 
     h2{
         color: #FAF9F6;
         font-size: 40px;
     }
 
-}
+} */
 
 
-
+/*
 #monthlyb{
     width:100%;
     box-sizing: border-box;
@@ -183,5 +235,7 @@ hr{
     h2{
         color: #FAF9F6;
     }
-}
+} */
+ 
 
+/*GALLERY OF FIELD AND FEAST*/
