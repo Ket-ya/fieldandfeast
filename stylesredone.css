@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*body{
+    font-family: Playfair Display;
+    margin: 15px;
+  /*  white-space-collapse: */
+/*}
+h1{
+    color: #FAF9F6;
+}
+
+h2{
+    color: #1F2A44;
+}
+*/
+
+
+
+@media screen and (min-width: 0px) {
+   /*HEADER*/
+#hlogo{
+   /* position: absolute; 
+   transform: translate(50%); */
+   height: 500px;
+}
+
+header{
+    background-color: #1F2A44;
+    text-align: center;
+    display: flexbox; 
+}
+
+header h3{
+    font-size: 25px;
+    margin-top: -45px;
+    color: #FAF9F6;
+}
+
+
+/*NAV*/
+nav.mheader{
+    background-color: #E5C185;
+
+}
+nav.mheader ol{
+    margin: 5px;
+    padding: 5px;
+    display:inline-flex;
+    flex-direction:row; 
+}
+
+nav.mheader li {
+    list-style-type:none;
+   display: inline; 
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 15px ;
+    text-align: center;
+    white-space:nowrap
+   /* display: flexbox;
+    flex-direction: row; */
+}
+}
+
+@media screen and (min-width:768px){
+       /*HEADER*/
+#hlogo {
+   /* position: absolute; 
+   transform: translate(50%); */
+   height: 500px;
+}
+
+header{
+    background-color: #1F2A44;
+    text-align: center;
+    display: flexbox; 
+}
+
+header h3{
+    font-size: 25px;
+    margin-top: -45px;
+    color: #FAF9F6;
+}
+
+
+/*NAV*/
+nav.mheader{
+    background-color: #E5C185;
+
+}
+nav.mheader ol{
+    margin: 5px;
+    padding: 5px;
+    display:inline-flex;
+    flex-direction:row; 
+}
+
+nav.mheader li {
+    list-style-type:none;
+   display: inline; 
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 15px ;
+    text-align: center;
+    white-space:nowrap
+   /* display: flexbox;
+    flex-direction: row; */
+}
+    
+}
+
+@media screen and (min-width:992px){
+    
+}
+
+@media screen and (min-width:1200px){
+       /*HEADER*/
+#hlogo {
+   /* position: absolute; 
+   transform: translate(50%); */
+   height: 500px;
+}
+
+header{
+    background-color: #1F2A44;
+    text-align: center;
+    display: flexbox; 
+}
+
+header h3{
+    font-size: 25px;
+    margin-top: -45px;
+    color: #FAF9F6;
+}
+
+
+/*NAV*/
+nav.mheader{
+    background-color: #E5C185;
+
+}
+nav.mheader ol{
+    margin: 5px;
+    padding: 5px;
+    display:inline-flex;
+    flex-direction:row; 
+}
+
+nav.mheader li {
+    list-style-type:none;
+   display: inline; 
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 15px ;
+    text-align: center;
+    white-space:nowrap
+   /* display: flexbox;
+    flex-direction: row; */
+}
+
+/*WELCOME*/
+
+#Welcome{
+    padding-left: 65px;
+    padding-right: 95px;
+    padding-bottom: -35px;
+    padding-top: -35px;
+    margin: 15px;
+}
+
+#Welcome h2 {
+    font-weight: lighter;
+}
+
+
+hr{
+    color:#E5C185;
+    text-align: center;
+    margin: 65px;
+}
+
+/*OUR OFFERINGS*/
+#offhead{
+    font-weight: lighter;
+}
+
+
+.ouroffersboxes {
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-gap:5px;
+    margin-right: 25px;
+
+
+}
+
+.greenslide1 {
+    width:fit-content;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: solid #76885B 5px;
+    background-color: #76885B;
+    color: #FAF9F6;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    margin: 25px;
+    position: sticky;
+}
+
+.greenslide1 h2{
+    color:#FAF9F6;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.greenslide2 {
+    width:fit-content;
+     box-sizing: border-box;
+    border-radius: 30px;
+    border: solid #76885B 5px;
+    background-color: #76885B;
+    color: #FAF9F6;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    margin: 25px;
+    position: sticky;
+    
+}
+
+.greenslide2 h2 {
+    color:#FAF9F6;
+    text-align:left;
+    white-space: nowrap;
+}
+
+.thridbox {
+    display: grid;
+    width:auto;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: solid #76885B 5px;
+    background-color: #76885B;
+    color: #FAF9F6;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    margin: 15px;
+    position:sticky;
+}
+
+.thridbox h2 {
+    color:#FAF9F6;
+    font: 30px;
+    text-align:left;
+    white-space: nowrap;
+}
+
+
+/*GALLERY OF FIELD AND FEAST*/
+
+#gallery {
+    padding-left: 65px;
+    padding-right: 95px;
+    padding-bottom: -50px;
+    padding-top: -50px;
+  /*  margin: 15px; */
+}
+
+#gallery h2 {
+    font-weight: lighter;
+    padding-top: -10px;
+}
+
+.imagecollection{
+   /* display: flex;
+    list-style-type: none;
+    margin-right: 25px; */
+
+}
+
+#gallerylist li {
+   list-style-type: none;
+    display: flex; 
+    border-radius: 50px; 
+    /*grid-template-columns: 45px; */
+    margin-left: 10px;
+    margin: 10px;
+}
+
+#gallerylist img {
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: 45px;
+    width: 200px;
+    height: 200px
+}
+
+    
+}
+
+@media screen and (min-width:1400px) {
+   body {
+    overflow-x: hidden; 
+    margin: 35px;}
+   /* white-space: nowrap;
+    font-family: Playfair Display;
+   /*white-space-collapse:break-spaces; */
+
+
+section {
+    display: block;
+  /*  margin: 35px */
+}
+h1{
+    font-size: 90px;
+    color: #FAF9F6;
+}
+
+h2{
+    font-size: 40px;
+    color: #1F2A44;
+   }    
+
+   p{
+    font-size: 25px;
+}
+    /*HEADER*/
+#hlogo {
+   /* position: absolute; 
+   transform: translate(50%); */
+   height: 500px;
+}
+
+header{
+    background-color: #1F2A44;
+    text-align: center;
+    display: flexbox; 
+}
+
+header h3{
+    font-size: 25px;
+    margin-top: -45px;
+    color: #FAF9F6;
+}
+
+
+/*NAV*/
+nav.mheader{
+    background-color: #E5C185;
+    color: #1F2A44;
+    font-size: 35px;
+
+}
+nav.mheader ol{
+    margin: 5px;
+    padding: 5px;
+    display:inline-flex;
+    flex-direction:row; 
+}
+
+nav.mheader li {
+    list-style-type:none;
+   display: inline; 
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 15px ;
+    text-align: center;
+    white-space:nowrap
+   /* display: flexbox;
+    flex-direction: row; */
+}
+
+
+/*WELCOME*/
+
+#Welcome{
+   padding: 35px;
+    margin: 5px; 
+}
+#Welcome p {
+    display: inline-block;
+    text-wrap:wrap;
+    padding: 5px;
+}
+
+#Welcome h2 {
+    font-weight: lighter;
+}
+
+
+hr{
+    color:#E5C185;
+    text-align: center;
+    margin: 65px;
+}
+
+/*OUR OFFERINGS*/
+
+#offerings{
+    margin: 35px;
+}
+#offhead{
+    font-weight: lighter;
+}
+
+
+.ouroffersboxes {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-gap:15px;
+
+}
+
+.greenslide1 {
+    width:fit-content;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: solid #76885B 5px;
+    background-color: #76885B;
+    color: #FAF9F6;
+    padding: 15px;
+   /* padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px; */
+    margin: 5px;
+}
+
+.greenslide1 h2{
+    color:#FAF9F6;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.greenslide2 {
+    width:fit-content;
+     box-sizing: border-box;
+    border-radius: 30px;
+    border: solid #76885B 5px;
+    background-color: #76885B;
+    color: #FAF9F6;
+    padding: 15px;
+   /* padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;*/
+    margin: 5px;    
+}
+
+.greenslide2 h2 {
+    color:#FAF9F6;
+    text-align:left;
+    white-space: nowrap;
+}
+
+.thridbox {
+    display: grid;
+    width:auto;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: solid #76885B 5px;
+    background-color: #76885B;
+    color: #FAF9F6;
+    padding: 15px;
+  /*  padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px; */
+    margin: 5px;
+}
+
+.thridbox h2 {
+    color:#FAF9F6;
+    font: 30px;
+    text-align:left;
+    white-space: nowrap;
+}
+
+/*GALLERY OF FIELD AND FEAST*/
+
+#gallery {
+    padding-left: 65px;
+    padding-right: 95px;
+    padding-bottom: -50px;
+    padding-top: -50px;
+  /*  margin: 15px; */
+}
+
+#gallery h2 {
+    font-weight: lighter;
+    padding-top: -10px;
+}
+
+/*.imagecollection{
+   /* display: flex;
+    list-style-type: none;
+    margin-right: 25px; */
+
+
+#gallerylist{
+    margin: 25px;
+}
+
+#gallerylist ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    padding-bottom: 50px;
+}
+
+#gallerylist li {
+   list-style-type: none;
+    display:flexbox; 
+    border-radius: 50px; 
+ 
+}
+
+#gallerylist img {
+    border-radius: 10px;
+    grid-template-columns: 45px;
+    width: 215px;
+    height: 200px
+} 
+
+.imagecollection .hierloom{
+    position: absolute;
+    transform: translatey(250px);
+    background-color: #FAF9F6;
+    box-sizing: border-box;
+   border-bottom-right-radius:15px ;
+   border-bottom-left-radius:15px ;
+    padding-bottom: 35px;
+    padding-top: 30px;
+    margin-left: 50px;
+    width: 216px;
+
+}
+
+.imagecollection .oliveoil{
+    position: absolute;
+    transform:translateX(240px) translateY(250px);
+    background-color: #FAF9F6;
+    box-sizing: border-box;
+   border-bottom-right-radius:15px ;
+   border-bottom-left-radius:15px ;
+    padding-bottom: 35px;
+    padding-top: 30px;
+    margin-left: 50px;
+    width: 216px;
+}
+
+.imagecollection .tablescrape{
+    position: absolute;
+    transform:translateX(200px) translateY(400px);
+    background-color: #FAF9F6;
+    box-sizing: border-box;
+   border-bottom-right-radius:15px ;
+   border-bottom-left-radius:15px ;
+    padding-bottom: 35px;
+    padding-top: 30px;
+    margin-left: 50px;
+    width: 216px;
+}
+
+
+
+.imagecollection .plating{
+    position: absolute;
+    transform:translateX(480px) translateY(245px); 
+    background-color: #FAF9F6;
+    box-sizing: border-box;
+   border-bottom-right-radius:15px ;
+   border-bottom-left-radius:15px ;
+    padding-bottom: 35px;
+    padding-top: 30px;
+    margin-left: 50px;
+    width: 216px;
+}
+
+
+
+/*.imagecollection .basket{
+        position: absolute;
+    transform:translateX(240px) translateY(270px);
+    background-color: #FAF9F6;
+    box-sizing: border-box;
+   border-bottom-right-radius:15px ;
+   border-bottom-left-radius:15px ;
+    padding-bottom: 35px;
+    padding-top: 30px;
+    margin-left: 50px;
+    width: 216px;
+}
+
+#gallerylist{
+
+} */
+
+}
+   
+
+
