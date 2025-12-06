@@ -2,29 +2,31 @@
 <html lang="en">
 
 <head>
-    <title></title>
-    <Link rel="stylesheet" href="stylesredone.css">
+    <title>Field & Feast</title>
+    <link rel="stylesheet" href="stylesredone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+"
 </head>
 
 <body>
 
 <header>
-    <img id="hlogo" src="photos/fieldandfeast-logo.png" alt="Field and Feast Logo">
+    <img src="photos/fieldandfeast-logo.png" alt="Field and Feast Logo">
     <h1>Field & Feast</h1>
-    <h3><i>Harvested with Care, Served with Elegance</i></h3>
+    <p class="headtag"><i>Harvested with Care, Served with Elegance</i></p>
 
 </header>
 
 
    <nav class="mheader">
-        <ol>
-            <a><li><b>About Us</b></li></a>
-            <a><li><b>Offerings</b></li></a>
-           <a> <li><b>Gallery</b></li></a>
-        </ol>
+        <ul>
+            <li>About Us</li>
+            <li>Offerings</li>
+           <li>Gallery</li>
+        </ul>
     </nav>
 
-    <section id="Welcome">
+    <section id="Welcome" class="welcome-contents">
         <h2>Welcome to Field & Feast</h2>
         <p>At Field & Feast, we believe that the finest meals 
             begin at the source. Rooted in tradition yet refined 
@@ -34,12 +36,13 @@
             our produce is grown to the artfully curated dishes 
             we serve, every detail is designed to bring you an 
             experience of unparalleled quality and flavor.</p>
-    </section>
+    
     <hr />
+            </section>
 
 
 
-    <section id="offerings"> 
+    <section id="offerings" class="offers-contents"> 
         <h2 id="offhead">Our Offerings</h2>
            
         <div class="ouroffersboxes">
@@ -62,7 +65,7 @@
         
     
 
-        <div class="thridbox">
+        <div class="thirdbox">
             <h3>The Field & Feast Monthly Basket</h3>
             <p>Experience a curated selection of premium seasonal 
                 ingredients delivered to your doorstep each month.</p>
@@ -73,10 +76,14 @@
             </ul>
             <p>Elevate your home dining with the finest farm-to-table offerings, elegantly packaged and delivered with care.</p>
           </div>
+          
+        
+        </div>
+        <hr>
     </section>
     
- <hr />
-    <section id="gallery">
+ 
+    <section id="gallery" class="gallery-contents">
         <h2>A Gallery of Field & Feast</h2>
         <p>
             Experience the elegance and artistry behind Field & Feast 
@@ -85,7 +92,7 @@
             each photo tells the story of our commitment to excellence.
         </p>
 
-        <section id="gallerylist">
+        
             <ul class="imagecollection">
           <!--  <ul>
                 <li><img src="photos/tomatoes-200w.jpg" srcset="photos/tomatoes-200w.jpg 200w, photos/tomatoes-300w.jpg 300w, photos/tomatoes-600w.jpg 600w" alt="Image of big red tomatoes on the vine"><div class="hierloom">Heirloom tomatoes at peak ripeness.</div></li>
@@ -106,27 +113,26 @@
                 <li><img src="photos/chef-plating-200w.jpg" srcset="photos/chef-plating-200w.jpg 200w, photos/chef-plating-300w.jpg 300w, photos/chef-plating-600w.jpg 600w" alt="Image of a man in a kitchen stacking food togehter"><p>Artful plating with seasonal ingredients</p></li>
                 <li><img src="photos/basket-200w.jpg" srcset="photos/basket-200w.jpg 200w, photos/basket-300w.jpg 300w, photos/basket-600w.jpg 600w" alt="Image of woven baskets filled with fresh produce"><p>Our monthly basket, curated with care.</p></li>
                 </ul>
-        </section>
 
-        <section id="fullgal">
+
+        <div class="fullgal">
             <p><b>View Our Full Gallery</b></p>
-        </section>
+        </div>
+
         <hr />
     </section>
 
-    <section id="footer">
-        <footer>
-            <address>
-               123 Estate Lane, Wine Country, CA 
-            </address>
-            <p id="white"><i>(555) 123-4567</i></p>
-            <p id="emails">hello@fieldandfeast.com</p>
+
+    <footer>
+            <p>
+            123 Estate Lane, Wine Country, CA 
+            </p>
+            <p><i>(555) 123-4567</i></p>
+            <p class="email">hello@fieldandfeast.com</p>
                 <div class="socials">
-            <p id="insta">Instagram</p> 
-            <p id="faceb">Facebook</p>
+            <p class="socials">Instagram &nbsp; &nbsp; Facebook</p>
                 </div>
         </footer>
-    </section>
 
 </body>
 

@@ -1,357 +1,14 @@
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-/*BASE AKA 0PX*/
-/*Colors
-midnight-blue: #1F2A44;
-olive-green: #76885B;
-champagne-gold: #E5C185;
-linen: #F8F4EC;
-dark-charcoal: #2B2B2B;
-soft-white: #FAF9F6;
-
-Font
-Playfair Display
-*/
-
-/*MAIN BODY STYLE*/
-
-
-body{
-    font-family: "Playfiar Display";
-    background-color: #F8F4EC;
-    color: #2b2b2b;
-    line-height: 1.6;
-}
-
-
-h1{
-    color:#1F2A44;
-    font-family: "Playfair Display";
-}
-
-h2{
-    color:#1F2A44;
-    font-family: "Playfair Display";
-}
-
-h3{
-    color:#1F2A44;
-    font-family: "Playfair Display";
-}
 
 hr{
     color:#E5C185;
     text-align: center;
     margin: 65px;
 }
-/*
-p{
-    font-family: "Playfair Display";
-}
+ 
 
-section {
-    padding: 48px 24px;
-} */
-
-
-/*HEADER*/
-
-header{
-    background-color: #1F2A44;
-    padding: 60px 20px;
-    text-align: center;
-}
-
-header img{
-    max-width: 600px;
-    margin: 0 auto 20px;
-}
-
-header h1 {
-    color: #FAF9F6;
-    font-size: 42px;
-    margin-bottom: 10px;
-}
-.headtag{
-    color: #FAF9F6;
-    font-size: 16px;
-}
-
-
-.mheader{
-    background-color: #E5C185;
-    padding: 16px 0px;
-}
-
-.mheader ul{
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    max-width: 900px;
-    margin: 0px auto;
-    padding: 0px;
-    font-weight: 600;
-    color: #1F2A44;
-}
-
-
-
-
-
-/*SECTIONS OF COTENT*/
-
-.welcome-contents, .offers-contents, .gallery-contents {
-    max-width: 1100px;
-    margin: 0px auto;
-    padding: 30px 20px;
-}
-
-.welcome-contents h2, .offers-contents h2, .gallery-contents h2 {
-    font-size: 35px;
-    margin-bottom: 14px;
-}
-
-.welcome-contents p, .offers-contents p, .gallery-contents p {
-    margin-bottom: 8px;
-        font-family: "Playfair Display";
-
-}
-/*nav {
-    background-color: #e5c58a;
-    padding: 16px 0px;
-    justify-content: center;
-}
-/*
-nav ul{
-    list-style: none;
-    display: flex;
-    gap: 32px;
-} */
-
-/*nav a{
-    color: #1F2A44;
-    font-weight: 600;
-}
-*/
-
-/*OUR OFFERSS*/
-.ouroffersboxes{
-    display: grid;
-    gap: 24px;
-    margin-top: 25px;
-}
-
-.greenslide1, .greenslide2, .thirdbox{
-    background-color: #76885b;
-    color: #FAF9F6;
-   padding: 24px; 
-    border-radius: 12px;
-
-}
-
-.greenslide1 h3, .greenslide2 h3, .thirdbox h3{
-    color: #FAF9F6;
-    margin-bottom: 10px;
-}
-
-.thirdbox{
-    column-span: 2;
-}
-
-.thirdbox ul {
-    margin: 10px 0px;
-    padding-left: 18px;
-}
-
-
-/*A GALLERY OF FIELD AND FEAST*/
-
-.imagecollection {
-   display: grid;
-    gap: 24px;
-    margin-top: 30px;
-    list-style: none;
-    grid-template-columns: 1fr; 
-   /* padding: 0;
-    max-width: 1100px;
-    margin: 30px auto; */
-}
-
-.imagecollection li {
-    background-color: #FAF9F6;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0px 5px 12px rgba(0,0,0,.15);
-}
-
-.imagecollection img{
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-}
-
-.imagecollection p{
-    padding: 14px;
-    font-size: 14px;
-}
-
-.fullgal{
-    background-color: #76885b;
-    color: #FAF9F6;
-    text-align: center;
-    padding: 14px;
-    margin-top: 25px;
-    border-radius: 6px;
-    font-weight: 600;
-}
-
-
-/*FOOTER*/
-
-footer{
-    background-color: #1F2A44;
-    color: #FAF9F6;
-    text-align: center;
-    padding: 50px 20px;
-}
-
-footer p{
-    margin: 6px 0px;
-}
-
-.email {
-    color: #E5C185;
-}
-
-.socials {
-    margin-top: 12px;
-    color: #E5C185;
-}
-
-/*RESPONSIVE SIZES*/
-
-@media(min-width:768px) {
-    header h1{
-        font-size: 50px;
-    }
-
-    .imagecollection{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
-}
-
-
-@media (min-width:992px) {
-    .ouroffersboxes{
-        grid-template-columns: repeat(2 1fr);
-    }
-
-    .thirdbox {
-        grid-column: span 2;
-    }
-
-    .imagecollection{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    
-}
-
-
-
-@media (min-width:1200px) {
-    .imagecollection{
-        grid-template-columns: repeat(5, 1fr);
-    }
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*1400 PX*/
-/*@media (min-width: 1400px) {
-    body{
-        margin: 35px;
-    }
-
-
-    h1{
-        font-size: 90px;
-    }
-
-    h2{
-        font-size: 40px;
-    }
-
-    p {
-        font-size: 35px;
-    }
-
-    #hlogo {
-        height: 500px;
-    }
-
-    /*NAV (STRIGHT DOWN)*/
-
-  /*  nav.mheader{
-        font-size: 35px;
-    }
-
-    nav.mheader li{
-        margin: 0px 100px;
-    }
-
-    /*OUR OFFERS*/
-  /*  .ouroffersboxes {
-        grid-template-columns: 600px 600px;
-        justify-content: center;
-    }
-
-
-    /*GALLERY OF FIELD AND FEAST*/
-   /* #gallerylist ul{
-        grid-template-columns: repeat(5, 1fr);
-    }
-    
-}
-
-
-
-
-/*IGNORE BELOW*/
-/*body{
-    font-family: Playfair Display;
-    margin: 15px;
-  /*  white-space-collapse: */
-/*}
-h1{
-    color: #FAF9F6;
-}
-
-h2{
-    color: #1F2A44;
-}
-*/
-/*
-hr{
-    color:#E5C185;
-    text-align: center;
-    margin: 65px;
-}
-
-/*IGNORE BELOW*/
-
-/*@media screen and (min-width:1400px) {
-   body {
+body {
     overflow-x: hidden; 
     margin: 35px;}
 
@@ -360,7 +17,7 @@ hr{
 section {
     display: block;
   /*  margin: 35px */
-/*}
+}
 h1{
     font-size: 90px;
     color: #FAF9F6;
@@ -375,11 +32,11 @@ h2{
     font-size: 25px;
 }
     /*HEADER*/
-/*#hlogo {
+#hlogo {
    /* position: absolute; 
    transform: translate(50%); */
-/*   height: 500px;
-/*}
+   height: 500px;
+}
 
 header{
     background-color: #1F2A44;
@@ -395,7 +52,7 @@ header h3{
 
 
 /*NAV*/
-/*nav.mheader{
+nav.mheader{
     background-color: #E5C185;
     color: #1F2A44;
     font-size: 35px;
@@ -418,12 +75,12 @@ nav.mheader li {
     white-space:nowrap
    /* display: flexbox;
     flex-direction: row; */
-/*}
+}
 
 
 /*WELCOME*/
 
-/*#Welcome{
+#Welcome{
    padding: 35px;
     margin: 5px; 
 }
@@ -446,7 +103,7 @@ hr{
 
 /*OUR OFFERINGS*/
 
-/*#offerings{
+#offerings{
     margin: 35px;
 }
 #offhead{
@@ -472,7 +129,7 @@ hr{
    /* padding-right: 15px;
     padding-left: 15px;
     padding-bottom: 15px; */
-/*   margin: 5px;
+    margin: 5px;
 }
 
 .greenslide1 h2{
@@ -492,7 +149,7 @@ hr{
    /* padding-right: 15px;
     padding-left: 15px;
     padding-bottom: 15px;*/
-  /*  margin: 5px;    
+    margin: 5px;    
 }
 
 .greenslide2 h2 {
@@ -513,7 +170,7 @@ hr{
   /*  padding-right: 15px;
     padding-left: 15px;
     padding-bottom: 15px; */
-   /* margin: 5px;
+    margin: 5px;
 }
 
 .thridbox h2 {
@@ -525,13 +182,13 @@ hr{
 
 /*GALLERY OF FIELD AND FEAST*/
 
-/*#gallery {
+#gallery {
     padding-left: 65px;
     padding-right: 95px;
     padding-bottom: -50px;
     padding-top: -50px;
   /*  margin: 15px; */
-/*}
+}
 
 #gallery h2 {
     font-weight: lighter;
@@ -570,7 +227,7 @@ hr{
 
 .hierloom{
     position: absolute;
-    transform:translateX(-10px) translatey(195px);
+    transform: translatey(200px);
     background-color: #FAF9F6;
     box-sizing: border-box;
    border-bottom-right-radius:15px ;
@@ -584,7 +241,7 @@ hr{
 
 .oliveoil{
     position: absolute;
-    transform:translateX(213px) translateY(195px);
+    transform:translateX(240px) translateY(200px);
     background-color: #FAF9F6;
     box-sizing: border-box;
    border-bottom-right-radius:15px ;
@@ -597,7 +254,7 @@ hr{
 
 .tables{
     position: absolute;
-    transform:translateX(436px) translateY(195px);
+    transform:translateX(480px) translateY(200px);
     background-color: #FAF9F6;
     box-sizing: border-box;
    border-bottom-right-radius:15px ;
@@ -611,7 +268,7 @@ hr{
 
 .plate{
     position: absolute;
-    transform:translateX(659px) translateY(195px); 
+    transform:translateX(720px) translateY(200px); 
     background-color: #FAF9F6;
     box-sizing: border-box;
    border-bottom-right-radius:15px ;
@@ -625,7 +282,7 @@ hr{
 
 .basket{
     position: absolute;
-    transform:translateX(881px) translateY(195px);
+    transform:translateX(960px) translateY(200px);
     background-color: #FAF9F6;
     box-sizing: border-box;
    border-bottom-right-radius:15px ;
@@ -637,7 +294,7 @@ hr{
 }
 
 /*FOOTER*/
-/*#fullgal{
+#fullgal{
     color: #FAF9F6;
     background-color: #76885B;
     text-align: center;
@@ -677,8 +334,4 @@ address {
 #faceb{
     transform: translateX(65px) translateY(-55px);
 }
-
-} */
-  
-
 
